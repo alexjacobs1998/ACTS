@@ -1,54 +1,147 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Your Company Name</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="description" content="Arc Technical Services Ltd. – Technical Procurement and Engineering Services" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Arc Technical Services Ltd</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <header>
-        <nav>
-            <div class="logo">Your Logo</div>
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-        <div class="hero">
-            <h1>Welcome to Your Company</h1>
-            <p>Providing quality services to meet your needs.</p>
-            <a href="#services" class="cta-button">Our Services</a>
+  <!-- NAVIGATION -->
+  <nav class="navbar">
+    <div class="container nav-container">
+      <div class="nav-logo">
+        <!-- Replace with your actual logo image or text -->
+        <a href="#home">Arc Technical Services Ltd</a>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- HERO SECTION -->
+  <header id="home" class="hero-section" style="background-image: url('hero.jpg');">
+    <div class="hero-overlay"></div>
+    <div class="container hero-content">
+      <h1>Experienced Technical Procurement</h1>
+      <p>
+        We have excelled for many years in the supply and procurement of the world’s best engineering products 
+        for some of the largest projects around the world. Our aim is to provide the most cost-effective and 
+        reliable solutions to your engineering needs. Our experienced team is well-versed in global sourcing, 
+        which ensures critical deliveries are made on time.
+      </p>
+      <a href="#about" class="btn-primary">Read More</a>
+    </div>
+  </header>
+
+  <!-- ABOUT SECTION -->
+  <section id="about" class="section about-section">
+    <div class="container about-content">
+      <h2>Welcome to Arc Technical Services</h2>
+      <p>
+        Arc Technical Services is a recognized engineering service provider for the oil &amp; gas, power 
+        generation, marine, and other industrial sectors. With a global client base that continues to grow, 
+        we have built a strong reputation for reliability, quality, and cost-effectiveness. 
+      </p>
+      <p>
+        Our mission is to partner with clients to provide a single-source solution for all their technical 
+        requirements. We pride ourselves on providing exceptional customer service, ensuring the timely 
+        delivery of products, and offering competitive prices. Our dedicated team of professionals ensures 
+        that our clients can focus on their core business, leaving their procurement and technical needs 
+        in capable hands.
+      </p>
+    </div>
+  </section>
+
+  <!-- SERVICES SECTION -->
+  <section id="services" class="section services-section">
+    <div class="container">
+      <h2>Our Services</h2>
+      <div class="services-grid">
+        <!-- Service 1 -->
+        <div class="service-card">
+          <img src="service1.jpg" alt="Authorized Distribution" />
+          <h3>Authorized Distribution</h3>
+          <p>
+            We are authorized distributors for high quality industrial brands. Our strategic partnerships 
+            with reputable manufacturers guarantee genuine products at competitive prices, and also ensure 
+            you receive exceptional technical support and after-sales service.
+          </p>
         </div>
-    </header>
-    <main>
-        <section id="about" class="content-section">
-            <h2>About Us</h2>
-            <p>We are committed to delivering exceptional services to our clients.</p>
-        </section>
-        <section id="services" class="content-section">
-            <h2>Our Services</h2>
-            <div class="services-container">
-                <div class="service-item">
-                    <h3>Service 1</h3>
-                    <p>Description of Service 1.</p>
-                </div>
-                <div class="service-item">
-                    <h3>Service 2</h3>
-                    <p>Description of Service 2.</p>
-                </div>
-                <div class="service-item">
-                    <h3>Service 3</h3>
-                    <p>Description of Service 3.</p>
-                </div>
-            </div>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2025 Your Company Name. All rights reserved.</p>
-    </footer>
+        <!-- Service 2 -->
+        <div class="service-card">
+          <img src="service2.jpg" alt="Technical MRO" />
+          <h3>Technical MRO &amp; Capex Procurement</h3>
+          <p>
+            We offer an extensive range of maintenance, repair, and operations (MRO) equipment as well as 
+            capital expenditure (Capex) procurement solutions. Our comprehensive approach covers the entire 
+            procurement cycle, from identifying the correct product to delivering it on-site, saving you 
+            valuable time and resources.
+          </p>
+        </div>
+        <!-- Service 3 -->
+        <div class="service-card">
+          <img src="service3.jpg" alt="Logistics Solutions" />
+          <h3>Logistics Solutions</h3>
+          <p>
+            We provide integrated logistics solutions that ensure your orders are delivered on time, 
+            wherever you need them. Our global network and partnerships with reputable freight forwarders 
+            enable us to handle even the most complex logistics challenges efficiently.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRODUCTS SECTION (Placeholder) -->
+  <section id="products" class="section products-section">
+    <div class="container">
+      <h2>Our Products</h2>
+      <p>
+        We supply a wide range of high-quality products tailored to the needs of various industries, 
+        including oil &amp; gas, power generation, marine, and more. Please contact us for a detailed 
+        product list and specifications.
+      </p>
+      <!-- Add product listings or catalogs as needed -->
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION (Placeholder) -->
+  <section id="contact" class="section contact-section">
+    <div class="container contact-container">
+      <h2>Contact Us</h2>
+      <p>
+        Interested in our services or have any questions? Reach out to us, and our team will respond promptly.
+      </p>
+      <form class="contact-form">
+        <div class="form-group">
+          <label for="name">Name*</label>
+          <input type="text" id="name" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email*</label>
+          <input type="email" id="email" required />
+        </div>
+        <div class="form-group">
+          <label for="message">Message*</label>
+          <textarea id="message" rows="5" required></textarea>
+        </div>
+        <button type="submit" class="btn-primary">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer-section">
+    <div class="container footer-container">
+      <p>&copy; 2025 Arc Technical Services Ltd. All rights reserved.</p>
+    </div>
+  </footer>
 </body>
 </html>
-

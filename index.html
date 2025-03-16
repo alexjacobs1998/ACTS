@@ -1,97 +1,156 @@
-<!-- index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Arc Technical Services Ltd</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Arc Technical Services Ltd</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link 
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" 
+    rel="stylesheet"
+  >
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav class="navbar">
-        <div class="container nav-container">
-            <a href="index.html" class="logo">Arc Technical Services Ltd</a>
-            <ul class="nav-links">
-                <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#products">Products</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
-    <header class="hero" style="background-image: url('hero.jpg');">
-        <div class="hero-content">
-            <h1>Leading the Way in Technical Procurement</h1>
-            <p>Your trusted partner for high-quality engineering solutions.</p>
-            <a href="about.html" class="btn">Learn More</a>
-        </div>
-    </header>
-    <section class="services">
-        <div class="container">
-            <h2>Our Services</h2>
-            <div class="service-grid">
-                <div class="service-item">
-                    <h3>Authorized Distribution</h3>
-                    <p>Supplying premium quality industrial products from global brands.</p>
-                </div>
-                <div class="service-item">
-                    <h3>Technical MRO & Capex Procurement</h3>
-                    <p>Comprehensive maintenance, repair, and operations solutions.</p>
-                </div>
-                <div class="service-item">
-                    <h3>Logistics Solutions</h3>
-                    <p>Seamless global logistics and supply chain management.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-    <footer>
-        <div class="container">
-            <p>&copy; 2025 Arc Technical Services Ltd. All Rights Reserved.</p>
-        </div>
-    </footer>
-</body>
-</html>
 
-<!-- about.html -->
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us - Arc Technical Services</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
+  <!-- ===== HEADER & NAVBAR ===== -->
+  <header class="main-header">
+    <div class="logo">
+      <img src="https://via.placeholder.com/120x50?text=Arc+Logo" alt="Arc Technical Services Logo">
+      <h1>Arc Technical Services Ltd</h1>
+    </div>
     <nav class="navbar">
-        <div class="container nav-container">
-            <a href="index.html" class="logo">Arc Technical Services Ltd</a>
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html" class="active">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#products">Products</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </div>
+      <ul>
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
     </nav>
-    <section class="about">
-        <div class="container">
-            <h1>About Arc Technical Services</h1>
-            <p>With a legacy spanning decades, Arc Technical Services Ltd is a leader in global engineering and procurement solutions.</p>
-            <h2>Mission Statement</h2>
-            <p>Our mission is to provide cost-effective and high-quality procurement solutions for industries worldwide.</p>
-            <h2>Our Reputation</h2>
-            <p>With a history built on trust and excellence, we continue to serve our global clientele with integrity.</p>
-            <h2>Meet Our Team</h2>
-            <p>Our experienced team of engineers, procurement specialists, and logistics professionals ensure seamless service delivery.</p>
+  </header>
+
+  <!-- ===== HERO SECTION ===== -->
+  <section class="hero" id="home">
+    <div class="hero-overlay">
+      <div class="hero-content">
+        <h2>Complete Engineering & Industrial Product Solutions</h2>
+        <p>Efficiency, Reliability, and Technical Excellence</p>
+        <a href="#about" class="btn-primary">Learn More</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT SECTION ===== -->
+  <section class="about-section" id="about">
+    <div class="container">
+      <div class="about-text">
+        <h2>Welcome to Arc Technical Services</h2>
+        <p>
+          Arc Technical Services is a complete service provider for all your engineering and industrial product distribution and procurement needs.  
+          With a global client base and an international sourcing network, we have a reputation for being honest, efficient, and client‑focused.
+        </p>
+        <p>
+          In addition, we are proud to be a distributor for many internationally renowned manufacturers of engineering and industrial products.
+        </p>
+        <a href="#services" class="btn-secondary">Our Services</a>
+      </div>
+      <div class="about-image">
+        <img src="https://via.placeholder.com/500x400?text=Engineering+Operations" alt="Arc Technical Services">
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SERVICES SECTION ===== -->
+  <section class="services-section" id="services">
+    <div class="container">
+      <h2>Our Services</h2>
+
+      <div class="services-grid">
+        <div class="service-card">
+          <img src="https://via.placeholder.com/400x250?text=Authorized+Distribution" alt="Authorized Distribution">
+          <h3>Authorized Distribution</h3>
+          <p>
+            We are authorized to distribute high-quality engineering and industrial products by renowned manufacturers. 
+            These include fluid sealing solutions, industrial safety, electrical distribution, and more.
+          </p>
+          <a href="#contact" class="service-link">Read more</a>
         </div>
-    </section>
-    <footer>
-        <div class="container">
-            <p>&copy; 2025 Arc Technical Services Ltd. All Rights Reserved.</p>
+
+        <div class="service-card">
+          <img src="https://via.placeholder.com/400x250?text=MRO+and+CapEx" alt="Technical MRO & CapEx Procurement">
+          <h3>Technical MRO &amp; CapEx Procurement</h3>
+          <p>
+            Our qualified engineers provide a highly competent and cost-effective specification, 
+            procurement, and logistic service for time-critical MRO and CAPEX requirements.
+          </p>
+          <a href="#contact" class="service-link">Read more</a>
         </div>
-    </footer>
+
+        <div class="service-card">
+          <img src="https://via.placeholder.com/400x250?text=Logistics+Solutions" alt="Logistics Solutions">
+          <h3>Logistics Solutions</h3>
+          <p>
+            We have a wide network of logistic partners to deliver solutions for your most complex requirements. 
+            Explore below to see how we can bring our value-added services to your organization.
+          </p>
+          <a href="#contact" class="service-link">Read more</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== PRODUCTS SECTION ===== -->
+  <section class="products-section" id="products">
+    <div class="container">
+      <h2>Products</h2>
+      <p>
+        As a distributor for top international brands, we carry a wide range of products:
+        engines, spares, marine &amp; chandlery, compressors &amp; spares, welding products, specialty cables,
+        construction tools &amp; materials, process instrumentation, and more.
+      </p>
+      <div class="products-gallery">
+        <!-- Example product images -->
+        <img src="https://via.placeholder.com/250x200?text=Product1" alt="Product 1">
+        <img src="https://via.placeholder.com/250x200?text=Product2" alt="Product 2">
+        <img src="https://via.placeholder.com/250x200?text=Product3" alt="Product 3">
+        <img src="https://via.placeholder.com/250x200?text=Product4" alt="Product 4">
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT SECTION ===== -->
+  <section class="contact-section" id="contact">
+    <div class="container">
+      <h2>Contact Us</h2>
+      <p>We would love to hear about your project requirements or product queries.</p>
+      <form action="#" class="contact-form">
+        <input type="text" name="name" placeholder="Your name" required>
+        <input type="email" name="email" placeholder="Your email" required>
+        <textarea name="message" rows="4" placeholder="Your message" required></textarea>
+        <button type="submit" class="btn-primary">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="main-footer">
+    <div class="container footer-content">
+      <p>&copy; 2025 Arc Technical Services Ltd. All Rights Reserved.</p>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
 </body>
 </html>

@@ -1,39 +1,142 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us - Arc Technical Services</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Arc Technical Services Ltd - About</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link 
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" 
+    rel="stylesheet"
+  >
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
+  <!-- ===== HEADER & NAVBAR ===== -->
+  <header class="main-header">
+    <div class="logo">
+      <!-- Replace logo URL as needed -->
+      <img src="https://via.placeholder.com/120x50?text=Arc+Logo" alt="Arc Technical Services Logo">
+      <h1>Arc Technical Services Ltd</h1>
+    </div>
     <nav class="navbar">
-        <div class="container nav-container">
-            <a href="index.html" class="logo">Arc Technical Services Ltd</a>
-            <ul class="nav-links">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html" class="active">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#products">Products</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </div>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <!-- This is the About page, so let's highlight it as "active" -->
+        <li><a href="about.html" class="active">About</a></li>
+        <li><a href="index.html#services">Services</a></li>
+        <li><a href="index.html#products">Products</a></li>
+        <li><a href="index.html#contact">Contact</a></li>
+      </ul>
     </nav>
-    <section class="about">
-        <div class="container">
-            <h1>About Arc Technical Services</h1>
-            <p>With a legacy spanning decades, Arc Technical Services Ltd is a leader in global engineering and procurement solutions.</p>
-            <h2>Mission Statement</h2>
-            <p>Our mission is to provide cost-effective and high-quality procurement solutions for industries worldwide.</p>
-            <h2>Our Reputation</h2>
-            <p>With a history built on trust and excellence, we continue to serve our global clientele with integrity.</p>
-            <h2>Meet Our Team</h2>
-            <p>Our experienced team of engineers, procurement specialists, and logistics professionals ensure seamless service delivery.</p>
+  </header>
+
+  <!-- ===== HERO (SMALLER STYLE) ===== -->
+  <!-- (If you want a big hero like the home page, just use the same code.
+       Here’s a smaller sub-hero for variety.) -->
+  <section class="sub-hero">
+    <div class="sub-hero-content">
+      <h2>About Arc Technical Services</h2>
+      <p>Our legacy of honesty, integrity, and efficiency.</p>
+    </div>
+  </section>
+
+  <!-- ===== MAIN CONTENT ===== -->
+  <section class="about-page-content">
+    <div class="container">
+
+      <!-- Mission Statement -->
+      <div class="about-section-block">
+        <h2>Mission Statement</h2>
+        <p>
+          Our mission is to meet the global and ever-expanding demand for efficient distribution 
+          of CAPEX and MRO across all industrial sectors. 
+          To be the premier choice of industries that want to outsource their procurement function.
+        </p>
+        <p>We aim to achieve our mission through:</p>
+        <ul class="styled-list">
+          <li>Providing a premier level of service to our customers worldwide</li>
+          <li>Leveraging our expanding global network of manufacturer and supplier agreements</li>
+          <li>Offering time‑critical and flexible logistical solutions</li>
+          <li>Implementing operational cost efficiencies to pass on competitive pricing to our clients</li>
+        </ul>
+      </div>
+
+      <!-- Our Reputation -->
+      <div class="about-section-block">
+        <h2>Our Reputation</h2>
+        <p>
+          With a family legacy that began in the 1970s by Mr. Hiranand Mahtani, 
+          we represent the 3rd generation within the business sector and are proud of our 
+          long‑standing reputation for honesty and integrity.
+        </p>
+        <p>
+          Our core principle is to provide as much transparency as possible 
+          to the supply chain, which has rewarded us with a loyal customer base.
+          At times, solving challenges requires a level of flexibility and support 
+          which can only be achieved through long‑term relationships based on trust.
+        </p>
+      </div>
+
+      <!-- Testimonial / Director Quote -->
+      <div class="director-quote">
+        <div class="quote-text">
+          <p>
+            “Having operated Arc Technical Services Ltd (formerly Gibson Exports Ltd) 
+            for more than half of its lifespan, I am proud of the reputation for honesty and 
+            efficiency that our company has earned by always putting its clients’ needs first. 
+            We look forward to adding value to your organisation.”
+          </p>
+          <span class="director-name">— Yogesh M. Daryanani, Director</span>
         </div>
-    </section>
-    <footer>
-        <div class="container">
-            <p>&copy; 2025 Arc Technical Services Ltd. All Rights Reserved.</p>
-        </div>
-    </footer>
+        <!-- Example placeholder image on the side -->
+        <img 
+          src="https://via.placeholder.com/400x250?text=Industrial+Site" 
+          alt="Industrial Operations"
+        >
+      </div>
+
+      <!-- Our Team -->
+      <div class="about-section-block">
+        <h2>Our Team</h2>
+        <p>
+          Our staff is composed of qualified, multi‑disciplined engineers, accountants, 
+          administrators, and experienced logistics professionals with decades of experience 
+          in the field of international procurement. 
+        </p>
+        <p>
+          We work together to meet our targets for a high standard of integrity, 
+          customer service, and cost efficiency, while thriving on the success of 
+          overcoming complex procurement challenges faced by our clients. 
+          We consider our staff as part of the family and maintain good team morale 
+          and a great working atmosphere.
+        </p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="main-footer">
+    <div class="container footer-content">
+      <p>60 Park View, London, W3 0PT</p>
+      <p>+44 (0) 208 752 1078</p>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html" class="active">About</a></li>
+          <li><a href="index.html#services">Services</a></li>
+          <li><a href="index.html#products">Products</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <p>Arc Technical Services Ltd. &copy; 2025 | Privacy Policy</p>
+    </div>
+  </footer>
+
 </body>
 </html>
